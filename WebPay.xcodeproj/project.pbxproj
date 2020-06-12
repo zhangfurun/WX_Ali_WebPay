@@ -15,6 +15,8 @@
 		157AFCF32493729A009C55AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157AFCF12493729A009C55AE /* LaunchScreen.storyboard */; };
 		157AFCFE2493729A009C55AE /* WebPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157AFCFD2493729A009C55AE /* WebPayTests.swift */; };
 		157AFD092493729B009C55AE /* WebPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157AFD082493729B009C55AE /* WebPayUITests.swift */; };
+		157AFD18249372FF009C55AE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157AFD17249372FF009C55AE /* WebKit.framework */; };
+		157AFD1C24937475009C55AE /* WebPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 157AFD1B24937475009C55AE /* WebPayTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		157AFD042493729B009C55AE /* WebPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		157AFD082493729B009C55AE /* WebPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPayUITests.swift; sourceTree = "<group>"; };
 		157AFD0A2493729B009C55AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157AFD17249372FF009C55AE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		157AFD1924937475009C55AE /* WebPay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebPay-Bridging-Header.h"; sourceTree = "<group>"; };
+		157AFD1A24937475009C55AE /* WebPayTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPayTool.h; sourceTree = "<group>"; };
+		157AFD1B24937475009C55AE /* WebPayTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPayTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157AFD18249372FF009C55AE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,7 @@
 				157AFCFC2493729A009C55AE /* WebPayTests */,
 				157AFD072493729B009C55AE /* WebPayUITests */,
 				157AFCE424937299009C55AE /* Products */,
+				157AFD16249372FF009C55AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +110,13 @@
 				157AFCE624937299009C55AE /* AppDelegate.swift */,
 				157AFCE824937299009C55AE /* SceneDelegate.swift */,
 				157AFCEA24937299009C55AE /* ViewController.swift */,
+				157AFD1A24937475009C55AE /* WebPayTool.h */,
+				157AFD1B24937475009C55AE /* WebPayTool.m */,
 				157AFCEC24937299009C55AE /* Main.storyboard */,
 				157AFCEF2493729A009C55AE /* Assets.xcassets */,
 				157AFCF12493729A009C55AE /* LaunchScreen.storyboard */,
 				157AFCF42493729A009C55AE /* Info.plist */,
+				157AFD1924937475009C55AE /* WebPay-Bridging-Header.h */,
 			);
 			path = WebPay;
 			sourceTree = "<group>";
@@ -126,6 +137,14 @@
 				157AFD0A2493729B009C55AE /* Info.plist */,
 			);
 			path = WebPayUITests;
+			sourceTree = "<group>";
+		};
+		157AFD16249372FF009C55AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				157AFD17249372FF009C55AE /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +215,7 @@
 				TargetAttributes = {
 					157AFCE224937299009C55AE = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					157AFCF82493729A009C55AE = {
 						CreatedOnToolsVersion = 11.3;
@@ -261,6 +281,7 @@
 			files = (
 				157AFCEB24937299009C55AE /* ViewController.swift in Sources */,
 				157AFCE724937299009C55AE /* AppDelegate.swift in Sources */,
+				157AFD1C24937475009C55AE /* WebPayTool.m in Sources */,
 				157AFCE924937299009C55AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C592BC3464;
 				INFOPLIST_FILE = WebPay/Info.plist;
@@ -443,6 +465,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebPay/WebPay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C592BC3464;
 				INFOPLIST_FILE = WebPay/Info.plist;
@@ -461,6 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebPay/WebPay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
