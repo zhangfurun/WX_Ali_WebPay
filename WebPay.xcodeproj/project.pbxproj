@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157AFCE724937299009C55AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157AFCE624937299009C55AE /* AppDelegate.swift */; };
+		157AFCE924937299009C55AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157AFCE824937299009C55AE /* SceneDelegate.swift */; };
+		157AFCEB24937299009C55AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157AFCEA24937299009C55AE /* ViewController.swift */; };
+		157AFCEE24937299009C55AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157AFCEC24937299009C55AE /* Main.storyboard */; };
+		157AFCF02493729A009C55AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157AFCEF2493729A009C55AE /* Assets.xcassets */; };
+		157AFCF32493729A009C55AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157AFCF12493729A009C55AE /* LaunchScreen.storyboard */; };
+		157AFCFE2493729A009C55AE /* WebPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157AFCFD2493729A009C55AE /* WebPayTests.swift */; };
+		157AFD092493729B009C55AE /* WebPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157AFD082493729B009C55AE /* WebPayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		157AFCFA2493729A009C55AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157AFCDB24937299009C55AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157AFCE224937299009C55AE;
+			remoteInfo = WebPay;
+		};
+		157AFD052493729B009C55AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157AFCDB24937299009C55AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157AFCE224937299009C55AE;
+			remoteInfo = WebPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		157AFCE324937299009C55AE /* WebPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		157AFCE624937299009C55AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		157AFCE824937299009C55AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		157AFCEA24937299009C55AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		157AFCED24937299009C55AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		157AFCEF2493729A009C55AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		157AFCF22493729A009C55AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		157AFCF42493729A009C55AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157AFCF92493729A009C55AE /* WebPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		157AFCFD2493729A009C55AE /* WebPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPayTests.swift; sourceTree = "<group>"; };
+		157AFCFF2493729A009C55AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157AFD042493729B009C55AE /* WebPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		157AFD082493729B009C55AE /* WebPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPayUITests.swift; sourceTree = "<group>"; };
+		157AFD0A2493729B009C55AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157AFCE024937299009C55AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AFCF62493729A009C55AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AFD012493729B009C55AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157AFCDA24937299009C55AE = {
+			isa = PBXGroup;
+			children = (
+				157AFCE524937299009C55AE /* WebPay */,
+				157AFCFC2493729A009C55AE /* WebPayTests */,
+				157AFD072493729B009C55AE /* WebPayUITests */,
+				157AFCE424937299009C55AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		157AFCE424937299009C55AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157AFCE324937299009C55AE /* WebPay.app */,
+				157AFCF92493729A009C55AE /* WebPayTests.xctest */,
+				157AFD042493729B009C55AE /* WebPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157AFCE524937299009C55AE /* WebPay */ = {
+			isa = PBXGroup;
+			children = (
+				157AFCE624937299009C55AE /* AppDelegate.swift */,
+				157AFCE824937299009C55AE /* SceneDelegate.swift */,
+				157AFCEA24937299009C55AE /* ViewController.swift */,
+				157AFCEC24937299009C55AE /* Main.storyboard */,
+				157AFCEF2493729A009C55AE /* Assets.xcassets */,
+				157AFCF12493729A009C55AE /* LaunchScreen.storyboard */,
+				157AFCF42493729A009C55AE /* Info.plist */,
+			);
+			path = WebPay;
+			sourceTree = "<group>";
+		};
+		157AFCFC2493729A009C55AE /* WebPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				157AFCFD2493729A009C55AE /* WebPayTests.swift */,
+				157AFCFF2493729A009C55AE /* Info.plist */,
+			);
+			path = WebPayTests;
+			sourceTree = "<group>";
+		};
+		157AFD072493729B009C55AE /* WebPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				157AFD082493729B009C55AE /* WebPayUITests.swift */,
+				157AFD0A2493729B009C55AE /* Info.plist */,
+			);
+			path = WebPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157AFCE224937299009C55AE /* WebPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157AFD0D2493729B009C55AE /* Build configuration list for PBXNativeTarget "WebPay" */;
+			buildPhases = (
+				157AFCDF24937299009C55AE /* Sources */,
+				157AFCE024937299009C55AE /* Frameworks */,
+				157AFCE124937299009C55AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebPay;
+			productName = WebPay;
+			productReference = 157AFCE324937299009C55AE /* WebPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		157AFCF82493729A009C55AE /* WebPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157AFD102493729B009C55AE /* Build configuration list for PBXNativeTarget "WebPayTests" */;
+			buildPhases = (
+				157AFCF52493729A009C55AE /* Sources */,
+				157AFCF62493729A009C55AE /* Frameworks */,
+				157AFCF72493729A009C55AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157AFCFB2493729A009C55AE /* PBXTargetDependency */,
+			);
+			name = WebPayTests;
+			productName = WebPayTests;
+			productReference = 157AFCF92493729A009C55AE /* WebPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		157AFD032493729B009C55AE /* WebPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157AFD132493729B009C55AE /* Build configuration list for PBXNativeTarget "WebPayUITests" */;
+			buildPhases = (
+				157AFD002493729B009C55AE /* Sources */,
+				157AFD012493729B009C55AE /* Frameworks */,
+				157AFD022493729B009C55AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157AFD062493729B009C55AE /* PBXTargetDependency */,
+			);
+			name = WebPayUITests;
+			productName = WebPayUITests;
+			productReference = 157AFD042493729B009C55AE /* WebPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		157AFCDB24937299009C55AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ifenghuI;
+				TargetAttributes = {
+					157AFCE224937299009C55AE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					157AFCF82493729A009C55AE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 157AFCE224937299009C55AE;
+					};
+					157AFD032493729B009C55AE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 157AFCE224937299009C55AE;
+					};
+				};
+			};
+			buildConfigurationList = 157AFCDE24937299009C55AE /* Build configuration list for PBXProject "WebPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 157AFCDA24937299009C55AE;
+			productRefGroup = 157AFCE424937299009C55AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157AFCE224937299009C55AE /* WebPay */,
+				157AFCF82493729A009C55AE /* WebPayTests */,
+				157AFD032493729B009C55AE /* WebPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157AFCE124937299009C55AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AFCF32493729A009C55AE /* LaunchScreen.storyboard in Resources */,
+				157AFCF02493729A009C55AE /* Assets.xcassets in Resources */,
+				157AFCEE24937299009C55AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AFCF72493729A009C55AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AFD022493729B009C55AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157AFCDF24937299009C55AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AFCEB24937299009C55AE /* ViewController.swift in Sources */,
+				157AFCE724937299009C55AE /* AppDelegate.swift in Sources */,
+				157AFCE924937299009C55AE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AFCF52493729A009C55AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AFCFE2493729A009C55AE /* WebPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AFD002493729B009C55AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AFD092493729B009C55AE /* WebPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		157AFCFB2493729A009C55AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157AFCE224937299009C55AE /* WebPay */;
+			targetProxy = 157AFCFA2493729A009C55AE /* PBXContainerItemProxy */;
+		};
+		157AFD062493729B009C55AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157AFCE224937299009C55AE /* WebPay */;
+			targetProxy = 157AFD052493729B009C55AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		157AFCEC24937299009C55AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157AFCED24937299009C55AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		157AFCF12493729A009C55AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157AFCF22493729A009C55AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157AFD0B2493729B009C55AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		157AFD0C2493729B009C55AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157AFD0E2493729B009C55AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = WebPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		157AFD0F2493729B009C55AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = WebPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		157AFD112493729B009C55AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = WebPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebPay.app/WebPay";
+			};
+			name = Debug;
+		};
+		157AFD122493729B009C55AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = WebPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebPay.app/WebPay";
+			};
+			name = Release;
+		};
+		157AFD142493729B009C55AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = WebPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebPay;
+			};
+			name = Debug;
+		};
+		157AFD152493729B009C55AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C592BC3464;
+				INFOPLIST_FILE = WebPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.WebPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		157AFCDE24937299009C55AE /* Build configuration list for PBXProject "WebPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AFD0B2493729B009C55AE /* Debug */,
+				157AFD0C2493729B009C55AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157AFD0D2493729B009C55AE /* Build configuration list for PBXNativeTarget "WebPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AFD0E2493729B009C55AE /* Debug */,
+				157AFD0F2493729B009C55AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157AFD102493729B009C55AE /* Build configuration list for PBXNativeTarget "WebPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AFD112493729B009C55AE /* Debug */,
+				157AFD122493729B009C55AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157AFD132493729B009C55AE /* Build configuration list for PBXNativeTarget "WebPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AFD142493729B009C55AE /* Debug */,
+				157AFD152493729B009C55AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 157AFCDB24937299009C55AE /* Project object */;
+}
